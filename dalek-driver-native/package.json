@@ -1,0 +1,86 @@
+{
+  "_args": [
+    [
+      "dalek-driver-native@0.0.6",
+      "C:\\slimerTest"
+    ]
+  ],
+  "_from": "dalek-driver-native@0.0.6",
+  "_id": "dalek-driver-native@0.0.6",
+  "_inBundle": false,
+  "_integrity": "sha1-LNT1YthBuYGZIKMyc+KCOMUk7Ys=",
+  "_location": "/dalek-driver-native",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "dalek-driver-native@0.0.6",
+    "name": "dalek-driver-native",
+    "escapedName": "dalek-driver-native",
+    "rawSpec": "0.0.6",
+    "saveSpec": null,
+    "fetchSpec": "0.0.6"
+  },
+  "_requiredBy": [
+    "/dalekjs"
+  ],
+  "_resolved": "https://registry.npmjs.org/dalek-driver-native/-/dalek-driver-native-0.0.6.tgz",
+  "_spec": "0.0.6",
+  "_where": "C:\\slimerTest",
+  "author": {
+    "name": "Sebastian Golasch",
+    "email": "public@asciidisco.com",
+    "url": "http://asciidisco.com"
+  },
+  "bugs": {
+    "url": "https://github.com/dalekjs/dalek-driver-native/issues"
+  },
+  "dependencies": {
+    "dalek-internal-webdriver": "0.0.5",
+    "node-pngjs": "0.0.2",
+    "q": "1.0.1"
+  },
+  "description": "Native driver for DalekJS",
+  "devDependencies": {
+    "blanket": "1.1.6",
+    "chai": "1.9.1",
+    "dalek-build-tools": "0.0.2",
+    "grunt": "0.4.5",
+    "grunt-bump": "0.0.13",
+    "grunt-complexity": "0.1.4",
+    "grunt-concurrent": "0.5.0",
+    "grunt-contrib-clean": "0.5.0",
+    "grunt-contrib-compress": "0.7.0",
+    "grunt-contrib-jshint": "0.9.2",
+    "grunt-contrib-watch": "0.6.0",
+    "grunt-contrib-yuidoc": "0.5.2",
+    "grunt-conventional-changelog": "1.1.0",
+    "grunt-documantix": "0.0.5",
+    "grunt-git-contributors": "0.1.5",
+    "grunt-include-replace": "1.2.0",
+    "grunt-mocha-test": "0.10.0",
+    "grunt-plato": "1.0.0",
+    "load-grunt-tasks": "0.4.0",
+    "time-grunt": "0.3.1"
+  },
+  "engine": {
+    "node": ">=0.8"
+  },
+  "homepage": "http://dalekjs.com",
+  "keywords": [
+    "dalekjs"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/dalekjs/dalek-driver-native/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "./index.js",
+  "name": "dalek-driver-native",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dalekjs/dalek-driver-native.git"
+  },
+  "version": "0.0.6"
+}

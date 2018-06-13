@@ -1,0 +1,92 @@
+{
+  "_from": "dalek-cli",
+  "_id": "dalek-cli@0.0.5",
+  "_inBundle": false,
+  "_integrity": "sha1-WQ54sGwmAN+2iLxP5WXjcR5Z1Wg=",
+  "_location": "/dalek-cli",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "dalek-cli",
+    "name": "dalek-cli",
+    "escapedName": "dalek-cli",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/dalek-cli/-/dalek-cli-0.0.5.tgz",
+  "_shasum": "590e78b06c2600dfb688bc4fe565e3711e59d568",
+  "_spec": "dalek-cli",
+  "_where": "C:\\slimerTest",
+  "author": {
+    "name": "Sebastian Golasch",
+    "email": "public@asciidisco.com",
+    "url": "http://asciidisco.com"
+  },
+  "bin": {
+    "dalek": "./bin/cmd.js"
+  },
+  "bugs": {
+    "url": "https://github.com/dalekjs/dalek-cli/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "optimist": "0.6.1"
+  },
+  "deprecated": false,
+  "description": "DalekJS Command line interface",
+  "devDependencies": {
+    "blanket": "1.1.6",
+    "chai": "1.10.0",
+    "dalek-build-tools": "0.0.2",
+    "grunt": "0.4.5",
+    "grunt-bump": "0.0.16",
+    "grunt-complexity": "0.2.0",
+    "grunt-concurrent": "1.0.0",
+    "grunt-contrib-clean": "0.6.0",
+    "grunt-contrib-compress": "0.12.0",
+    "grunt-contrib-jshint": "0.10.0",
+    "grunt-contrib-yuidoc": "0.5.2",
+    "grunt-conventional-changelog": "1.1.0",
+    "grunt-documantix": "0.0.5",
+    "grunt-git-contributors": "0.1.5",
+    "grunt-include-replace": "2.0.0",
+    "grunt-mocha-test": "0.12.4",
+    "grunt-plato": "1.3.0",
+    "load-grunt-tasks": "1.0.0",
+    "time-grunt": "1.0.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "engine": {
+    "node": ">=0.8"
+  },
+  "homepage": "https://github.com/dalekjs/dalek-cli#readme",
+  "keywords": [
+    "dalekjs",
+    "cli"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/dalekjs/dalek-cli/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "./bin/cmd.js",
+  "name": "dalek-cli",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dalekjs/dalek-cli.git"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "version": "0.0.5"
+}
